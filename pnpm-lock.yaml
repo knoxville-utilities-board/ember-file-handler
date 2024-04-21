@@ -45,12 +45,6 @@ importers:
       '@types/ember':
         specifier: ^4.0.11
         version: 4.0.11(@babel/core@7.22.17)
-      '@types/ember-qunit':
-        specifier: ^6.1.1
-        version: 6.1.1(@ember/test-helpers@2.9.4(@babel/core@7.22.17)(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2)))(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2))(qunit@2.19.4)(webpack@5.88.2)
-      '@types/ember-resolver':
-        specifier: ^9.0.0
-        version: 9.0.0(@ember/string@3.1.1)(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2))
       '@types/ember__application':
         specifier: ^4.0.11
         version: 4.0.11(@babel/core@7.22.17)
@@ -1089,14 +1083,6 @@ packages:
 
   '@types/cors@2.8.14':
     resolution: {integrity: sha512-RXHUvNWYICtbP6s18PnOCaqToK8y14DnLd75c6HfyKf228dxy7pHNOQkxPtvXKp/hINFMDjbYzsj63nnpPMSRQ==}
-
-  '@types/ember-qunit@6.1.1':
-    resolution: {integrity: sha512-1g5A3vPKhvB/CuN/EP9rBLXYaJOjzKyLYWeBtNDEQNkTuG1dAo/Hg0CCixgbBgLlzaDP8mR/n1xpg8HqQ8SUKg==}
-    deprecated: This is a stub types definition. ember-qunit provides its own type definitions, so you do not need this installed.
-
-  '@types/ember-resolver@9.0.0':
-    resolution: {integrity: sha512-lEuC2QD8K6rRAbELMejrALFBgelRPt6OQtapny4Oke07ZtK/Lbf9zn5KIDl7PNkirxMD0AStsQTdUqFu6eVbVw==}
-    deprecated: This is a stub types definition. ember-resolver provides its own type definitions, so you do not need this installed.
 
   '@types/ember@4.0.11':
     resolution: {integrity: sha512-v7VIex0YILK8fP87LkIfzeeYKNnu74+xwf6U56v6MUDDGfSs9q/6NCxiUfwkxD+z5nQiUcwvfKVokX8qzZFRLw==}
@@ -6884,25 +6870,6 @@ snapshots:
   '@types/cors@2.8.14':
     dependencies:
       '@types/node': 20.6.0
-
-  '@types/ember-qunit@6.1.1(@ember/test-helpers@2.9.4(@babel/core@7.22.17)(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2)))(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2))(qunit@2.19.4)(webpack@5.88.2)':
-    dependencies:
-      ember-qunit: 6.2.0(@ember/test-helpers@2.9.4(@babel/core@7.22.17)(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2)))(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2))(qunit@2.19.4)(webpack@5.88.2)
-    transitivePeerDependencies:
-      - '@ember/test-helpers'
-      - '@glint/template'
-      - ember-source
-      - qunit
-      - supports-color
-      - webpack
-
-  '@types/ember-resolver@9.0.0(@ember/string@3.1.1)(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2))':
-    dependencies:
-      ember-resolver: 10.1.1(@ember/string@3.1.1)(ember-source@4.12.4(@babel/core@7.22.17)(@glimmer/component@1.1.2(@babel/core@7.22.17))(webpack@5.88.2))
-    transitivePeerDependencies:
-      - '@ember/string'
-      - ember-source
-      - supports-color
 
   '@types/ember@4.0.11(@babel/core@7.22.17)':
     dependencies:
