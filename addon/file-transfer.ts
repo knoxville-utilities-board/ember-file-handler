@@ -6,6 +6,7 @@ import type {
   ResponseData,
   ResponseType,
   TransformedRequestData,
+  FileTransferOptions,
 } from './types';
 
 export const GET = 'GET';
@@ -16,10 +17,6 @@ export const TYPE_ARRAY_BUFFER = 'arraybuffer';
 export const TYPE_BLOB = 'blob';
 export const TYPE_DOCUMENT = 'document';
 export const TYPE_JSON = 'json';
-
-export type FileTransferOptions = {
-  method?: HttpMethod;
-};
 
 export default class FileTransfer {
   @tracked
